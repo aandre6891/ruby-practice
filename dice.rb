@@ -1,3 +1,7 @@
-integer = 7
+random_number = rand(10)
 
-puts rand(integer)
+if random_number < 5
+  return 0
+else
+  return 10
+end
