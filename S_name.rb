@@ -6,8 +6,5 @@ puts "Hello stranger, write your name here!"
 print "Name: " 
 name = gets.chomp
 
-if name.capitalize[0] == "S"
-  puts "You are a very bad person #{name.capitalize}, just like my friend Sam and all the people whose name starts with S! GO AWAY!!!!! 😡😡😡"
-else
-  puts "You are OK, not like those weird people whose name starts with S."
-end
+name.capitalize[0] == "S" ? (puts "You are a very bad person #{name.capitalize}, 
+  just like my friend Sam and all the people whose name starts with S! GO AWAY!!!!! 😡😡😡") : (puts "You are OK #{name.capitalize}, not like those weird people whose name starts with S.")
